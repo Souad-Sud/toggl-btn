@@ -1,0 +1,28 @@
+.toggl_container{
+    
+    margin: 100px 100px;
+    padding: 50px;
+    text-align: center;
+}        
+button{
+    background-image: linear-gradient(to right, #2196f3 0%, #f44336  51%, #2196f3  100%);
+    
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border-color: white;
+   
+     
+  }
+
+  button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
